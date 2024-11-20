@@ -3,7 +3,7 @@
 int main() {
     unsigned int a = 0;
     printf("Input positive integer: ");
-    scanf("%d", &a);
+    scanf("%u", &a);
 
     printf("bin: ");
     size_t size = sizeof(a);
